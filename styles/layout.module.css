@@ -82,4 +82,7 @@
   .footerContainer {
      flex-direction: column-reverse;
   }
+  .footerList {
+    margin-right: 5%;
+  }
 }

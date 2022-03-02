@@ -4,6 +4,7 @@ date: '2022-01-03'
 imagesrc: '/../public/images/winter.jpeg'
 author: 'Pieti Kinnunen'
 authorimg: '/../public/images/profile.jpg'
+description: 'A placeholder blog post'
 ---
 
 **Pieti Kinnunen** kirjoitti tämän julkaisun. Ei tässä ole **mitään** oikeaa sisältöä vaan pelkkää lorem ipsumia taitaa olla.

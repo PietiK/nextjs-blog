@@ -4,6 +4,7 @@ date: '2020-01-02'
 imagesrc: '/../public/images/animal.jpeg'
 author: 'Pieti Kinnunen'
 authorimg: '/../public/images/profile.jpg'
+description: 'Blog post about static generation'
 ---
 
 We recommend using **Static Generation** (with and without data) whenever possible because your page can be built once and served by CDN, which makes it much faster than having a server render the page on every request.

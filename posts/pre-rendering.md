@@ -4,6 +4,7 @@ date: '2020-01-01'
 imagesrc: '/../public/images/butterfly.jpeg'
 author: 'Pieti Kinnunen'
 authorimg: '/../public/images/profile.jpg'
+description: 'Blog post about Next.js pre-rendering'
 ---
 
 Next.js has two forms of pre-rendering: **Static Generation** and **Server-side Rendering**. The difference is in **when** it generates the HTML for a page.

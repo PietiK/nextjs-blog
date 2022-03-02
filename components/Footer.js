@@ -1,4 +1,4 @@
-import styles from './layout.module.css'
+import styles from '../styles/layout.module.css'
 import utilStyles from '../styles/utils.module.css'
 import Link from 'next/link'
 
@@ -11,7 +11,7 @@ const Footer = (props) => {
           <h3>Blogipostaukset</h3>
           <ul className={styles.footerList}>
             {props.footerContent.map(({ id, title }) => (
-              <li className={utilStyles.listItem} key={id}>
+              <li className={utilStyles.listItem} className={utilStyles.headingMd} key={id}>
                 <Link href={`/posts/${id}`}>
                   <a>{title}</a>
                 </Link>
@@ -20,9 +20,9 @@ const Footer = (props) => {
           </ul>
           
         </div>
-        <div className={styles.footerRight}>
+        <div className={styles.footerRight} >
           <h1>Alaotsikko</h1>
-          <p>Lorem ipsum</p>
+          <p className={utilStyles.headingMd}>Lorem ipsum</p>
         </div>
       </div>
     </footer>

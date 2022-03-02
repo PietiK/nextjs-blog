@@ -28,7 +28,7 @@ export default function Home({allPostsData}) {
         
       </Head>
       <section className={utilStyles.headingMd}>
-        <p>Minä olen Pieti Kinnunen</p>
+        <p>Minä olen Pieti Kinnunen.</p>
         <p>Olen 22-vuotias tietojenkäsittelytieteen opiskelija Kuopiosta. Opiskelen tietojenkäsittelytiedettä Itä-Suomen Yliopistossa. 
           Suoritan tällä hetkellä opintojeni kolmatta vuotta. </p>
         <br />

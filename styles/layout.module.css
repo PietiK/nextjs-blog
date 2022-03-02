@@ -52,7 +52,7 @@
 }
 
 .footerContainer {
-  width: 36rem;
+  width: 40rem;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
@@ -70,6 +70,7 @@
 .footerList {
   list-style: none;
   padding-left: 0;
+  margin-right: 200px;
 }
 
 .footerList a, .footerList li {

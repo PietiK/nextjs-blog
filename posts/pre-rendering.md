@@ -1,7 +1,8 @@
 ---
 title: 'Two Forms of Pre-rendering'
 date: '2020-01-01'
-imagesrc: '/images/butterfly.jpeg'
+imagesrc: '/images/butterfly.jpg'
+cardsrc: '/images/butterflycard.jpeg'
 author: 'Pieti Kinnunen'
 authorimg: '/images/profile.jpg'
 description: 'Blog post about Next.js pre-rendering'

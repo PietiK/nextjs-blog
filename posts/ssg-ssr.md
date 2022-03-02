@@ -1,7 +1,8 @@
 ---
 title: 'When to Use Static Generation v.s. Server-side Rendering'
 date: '2020-01-02'
-imagesrc: '/images/animal.jpeg'
+imagesrc: '/images/animal.jpg'
+cardsrc: '/images/animalcard.jpeg'
 author: 'Pieti Kinnunen'
 authorimg: '/images/profile.jpg'
 description: 'Blog post about static generation'

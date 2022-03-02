@@ -12,7 +12,7 @@ export default function Cards(props) {
         {props.cardsData.map((post) => (
             <Link href={`/posts/${post.id}`} key={post.id}>
               <div className={cardStyles.card}>
-                <Image src={post.imagesrc} width={200} height={136} className={cardStyles.cardImg}/>
+                <Image src={post.cardsrc} width={200} height={136} className={cardStyles.cardImg}/>
                 <p className={cardStyles.cardTitle}>{post.title}</p>
                 <br />
                 <small className={cardStyles.cardDate}>

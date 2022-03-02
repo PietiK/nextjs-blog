@@ -1,7 +1,7 @@
 .container {
   max-width: 36rem;
   padding: 0 1rem;
-  margin: 3rem auto 6rem;
+  margin: 3rem auto 3rem;
 }
 
 .header {
@@ -12,4 +12,55 @@
 
 .backToHome {
   margin: 3rem 0 0;
+}
+
+.link {
+  color: black;
+  text-decoration: underline;
+}
+
+.authordiv {
+  display: flex;
+  padding: 10px 10px 10px 10px;
+  align-items: center;
+}
+
+.authordiv time {
+  color: #8A8A8A;
+}
+
+.authordiv div {
+  flex-grow: 1;
+  padding-left: 10px;
+}
+
+.homeLink a{
+  color: black;
+  text-decoration: underline;
+}
+
+.footerContainer {
+  width: 36rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 0 1rem;
+}
+
+.footerRight {
+  color: white;
+}
+
+.footerPosts {
+  color: white;
+}
+
+.footerList {
+  list-style: none;
+  padding-left: 0;
+}
+
+.footerList a, .footerList li {
+  color: white;
+  margin-bottom: 10px;
 }

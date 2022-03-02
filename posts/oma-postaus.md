@@ -1,9 +1,9 @@
 ---
 title: 'Itse keksitty postaus'
 date: '2022-01-03'
-imagesrc: '/../public/images/winter.jpeg'
+imagesrc: '/images/winter.jpeg'
 author: 'Pieti Kinnunen'
-authorimg: '/../public/images/profile.jpg'
+authorimg: '/images/profile.jpg'
 description: 'A placeholder blog post'
 ---
 

@@ -8,8 +8,6 @@ const name = 'Pieti Kinnunen'
 export const siteTitle = 'Pieti Kinnunen'
 
 export default function Layout( props ) {
-  console.log(props.posttitle);
-  console.log(props.footerContent);
   return (
     <>
       <div className={styles.container}>
@@ -19,6 +17,17 @@ export default function Layout( props ) {
           <meta name="og:title" content={props.posttitle} />
           <meta name='og:type' content='article' />
           <meta name='og:url' content={`https://nextjs-blog-pietik.vercel.app/${props.postid}`}/>
+          <meta name='og:image' content={props.postimg}/>
+
+          <script type="application/ld+json" dangerouslySetInnerHTML={{__html: JSON.stringify({
+          "@context": "https://schema.org/",
+          "@type": "blogPost",
+          "name": `${props.posttitle}`,
+          "author": "Pieti Kinnunen",
+          "image": `${props.postimg}`,
+          "description": `${props.postdescription}`
+          })}} />
+
         </Head>
         <header className={styles.header}>
           {props.home ? (

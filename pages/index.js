@@ -11,12 +11,21 @@ export default function Home({allPostsData}) {
     <Layout home footerContent={allPostsData}>
       <Head>
         <title>{siteTitle}</title>
-        <meta name="description" content="The front page of the blog"/>
+        <meta name="description" content="The front page of a blog"/>
         <meta name='title' content="Pieti Kinnunen"/>
         <meta name='og:title' content="Pieti Kinnunen"/>
         <meta name='og:type' content='profile' />
-        <meta name='og:image' content='' />
+        <meta name='og:image' content='/images/profile.jpg' />
         <meta name='og:url' content='https://nextjs-blog-pietik.vercel.app/'/>
+        <script type="application/ld+json" dangerouslySetInnerHTML={{__html: JSON.stringify({
+          "@context": "https://schema.org/",
+          "@type": "Blog",
+          "name": "Pieti Kinnunen",
+          "author": "Pieti Kinnunen",
+          "image": "/images/profile.jpg",
+          "description": "The front page of a blog"
+        })}} />
+        
       </Head>
       <section className={utilStyles.headingMd}>
         <p>Minä olen Pieti Kinnunen</p>

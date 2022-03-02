@@ -17,6 +17,8 @@ export default function Layout( props ) {
           <meta name="description" content={props.postdescription}/>
           <meta name='title' content={props.posttitle}/>
           <meta name="og:title" content={props.posttitle} />
+          <meta name='og:type' content='article' />
+          <meta name='og:url' content={`https://nextjs-blog-pietik.vercel.app/${props.postid}`}/>
         </Head>
         <header className={styles.header}>
           {props.home ? (

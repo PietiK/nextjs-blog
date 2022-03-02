@@ -3,14 +3,20 @@ import Layout, { siteTitle } from '../components/layout'
 import utilStyles from '../styles/utils.module.css'
 import {getSortedPostsData} from '../lib/posts'
 import Cards from '../components/Cards'
+import { useRouter } from 'next/router'
 
 export default function Home({allPostsData}) {
+  const router = useRouter();
   return (
     <Layout home footerContent={allPostsData}>
       <Head>
         <title>{siteTitle}</title>
         <meta name="description" content="The front page of the blog"/>
         <meta name='title' content="Pieti Kinnunen"/>
+        <meta name='og:title' content="Pieti Kinnunen"/>
+        <meta name='og:type' content='profile' />
+        <meta name='og:image' content='' />
+        <meta name='og:url' content='https://nextjs-blog-pietik.vercel.app/'/>
       </Head>
       <section className={utilStyles.headingMd}>
         <p>Minä olen Pieti Kinnunen</p>
